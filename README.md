@@ -1,4 +1,4 @@
-## spec-xunit-file
+## spec-xunit-file-deepeq
 Mocha test reporter. Displays 'spec' reporter output to stdout and generates a xunit XML file in background.
 
 Based upon [spec-xunit-file](git@github.com:john-cornett/spec-xunit-file.git) reporter
@@ -7,18 +7,18 @@ Add functionality includes the ability to dump deeply equal actual and expected 
 
 ### How to use
 
-1. Install `spec-xunit-file`
+1. Install `spec-xunit-file-deepeq`
 ```
-> npm install --save-dev spec-xunit-file
+> npm install --save-dev spec-xunit-file-deepeq
 ```
 
 2. If using mocha cli with use the `-R` or `--reporter` option
 ```
-> mocha -R spec-xunit-file
+> mocha -R spec-xunit-file-deepeq
 ```
 or
 ```
-> mocha --reporter spec-xunit-file
+> mocha --reporter spec-xunit-file-deepeq
 ```
 
 

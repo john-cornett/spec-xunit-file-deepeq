@@ -1,1 +1,1 @@
-module.exports = require('./lib/spec-xunit-file');
+module.exports = require('./lib/spec-xunit-file-deepeq');
