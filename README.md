@@ -1,9 +1,9 @@
 ## spec-xunit-file
 Mocha test reporter. Displays 'spec' reporter output to stdout and generates a xunit XML file in background.
 
-Based upon [xunit-file](https://github.com/peerigon/xunit-file) reporter
+Based upon [spec-xunit-file](git@github.com:john-cornett/spec-xunit-file.git) reporter
 
-
+Add functionality includes the ability to dump deeply equal actual and expected json values to XML test results.
 
 ### How to use
 
@@ -38,5 +38,6 @@ Set LOG_XUNIT environment variable, if you want the output in the console and xm
 ```
 
 # Credits
-This reporter is based on [xunit-file](https://github.com/peerigon/xunit-file) which in-turn based on
+This reporter is based on [spec-xunit-file](git@github.com:john-cornett/spec-xunit-file.git) which is in turn based on
+[xunit-file](https://github.com/peerigon/xunit-file) which in-turn based on
 the original [xunit reporter](https://github.com/visionmedia/mocha/blob/master/lib/reporters/xunit.js) from mocha only writing the result in an xml file.
