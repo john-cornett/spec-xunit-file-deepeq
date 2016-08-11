@@ -1,6 +1,6 @@
 {
   "name": "spec-xunit-file-deepeq",
-  "version": "0.0.1-6",
+  "version": "0.0.1-7",
   "description": "Mocha reporter which displays Spec output and generates xunit XML file; includes deeply equal output;",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,8 @@
     "reporter"
   ],
   "peerDependencies": {
-    "mocha": ">=1.7.0"
+    "mocha": ">=1.7.0",
+    "difflib": "^0.2.4"
   },
   "devDependencies": {
     "mocha": "^1.7.0",
