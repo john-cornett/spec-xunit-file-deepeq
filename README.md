@@ -38,6 +38,6 @@ Set LOG_XUNIT environment variable, if you want the output in the console and xm
 ```
 
 # Credits
-This reporter is based on [spec-xunit-file](git@github.com:john-cornett/spec-xunit-file.git) which is in turn based on
+This reporter is based on [spec-xunit-file](https://github.com/cybo42/spec-xunit-file) which is in turn based on
 [xunit-file](https://github.com/peerigon/xunit-file) which in-turn based on
 the original [xunit reporter](https://github.com/visionmedia/mocha/blob/master/lib/reporters/xunit.js) from mocha only writing the result in an xml file.
